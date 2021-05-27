@@ -1,0 +1,40 @@
+body{
+    background-image: url('back.jpg');
+    opacity: 0.8;
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+}
+.input{
+padding: 10px;
+width: 30%;
+font-size: 20px;
+outline: none;
+border: none;
+border-radius: 10px;
+font-family: "Jost", sans-serif;
+}
+#heading{
+    font-family: 'Ubuntu', sans-serif;
+    margin-top: 70px;
+    margin-bottom: 4.5%;
+    font-size: 50px;
+    font-weight: 800;
+    color: dodgerblue;
+}
+.temp{
+    font-size: 65px;
+    color:rgb(51, 54, 243);
+    font-weight: 600;
+}
+.location{
+    font-size: 50px;
+    color: rgb(0, 0, 0);
+
+}
+.minmax{
+    font-size: 30px;
+ 
+}
+.error{
+    font-size: 30px;
+}
