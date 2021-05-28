@@ -19,7 +19,7 @@ function Weather() {
         <div>
             <h1 id="heading">Weather Forecast</h1>
             {/* <hr/> */}
-            <input className="input" onChange={e => setSearch(e.target.value)}/>
+            <input placeholder="Enter any city name" className="input" onChange={e => setSearch(e.target.value)}/>
 
             {
                 !city ? 
